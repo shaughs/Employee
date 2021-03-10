@@ -40,7 +40,6 @@ public class Employee {
         }else{
             throw new IllegalArgumentException("Invalid title entered");
         }
-
     }
 
     public String getEmployeeName() {
@@ -53,7 +52,6 @@ public class Employee {
         }else{
             throw new IllegalArgumentException("Invalid name, Name provided is not valid");
         }
-
     }
 
     public String getPpsID() {
@@ -92,8 +90,6 @@ public class Employee {
         }else{
             throw new IllegalArgumentException("Invalid Employment Type entered");
         }
-
-
     }
 
     public int getAge() {
@@ -107,5 +103,4 @@ public class Employee {
             throw new IllegalArgumentException("Invalid Age, Age must be over 18");
         }
     }
-
 }
