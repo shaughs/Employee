@@ -5,6 +5,7 @@ Student Email - G00358883@gmit.ie
 Semester 2 In-Class Java Test
 10/03/2021 9am - 11pm
  */
+
 //Employee class for the constructors,getter,setters
 
 package ie.gmit.Employee;
@@ -100,7 +101,7 @@ public class Employee {
     }
 
     public void setAge(int age) {
-        if(age > 18){
+        if(age >= 18){
             this.age = age;
         }else{
             throw new IllegalArgumentException("Invalid Age, Age must be over 18");
